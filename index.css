@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    height: 100vh;
+    background-image:  url(pexels-photo-797666.jpeg);
+    opacity: 90%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.from1 {
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    border: none;
+    
+}
+.search-btn{
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    
+
+}
+.search-btn a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 197, 117);
+    font-size: 60px;
+    text-shadow: gray ;
+
+}
+
+
