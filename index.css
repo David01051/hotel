@@ -43,5 +43,8 @@ h1{
     text-shadow: gray ;
 
 }
+@media (max-width: 360px){}
+    
+
 
 
