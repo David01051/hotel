@@ -52,11 +52,13 @@ h3{
 .sidebar1{
     grid-area: sidebar;
     text-align: center;
+    
         
 }
 .content1{
    grid-area: sidebar1;
    text-align: center;
+   
    
    
 }
@@ -66,7 +68,7 @@ h3{
     color: rgb(37, 36, 36);
     font-size: 20px;
     margin-bottom: 15px;
-    
+    text-decoration: none;
 
 }
 .content2 {
@@ -119,11 +121,7 @@ h3{
     color: #fff;
     border: 3px solid;
     border-radius: 20px;
-    box-shadow: 5px 5px rgb(100, 98, 98);
-    opacity: 1;
-    display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    box-shadow: 5px 5px rgb(100, 98, 98);  
 }
 
 .img2{
@@ -150,7 +148,7 @@ h3{
 
     
 
-@media (max-width: 600px){
+@media (max-width: 375px){
     .container{
         display: grid;
         grid-template-columns: 1fr 2fr;
